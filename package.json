@@ -1,0 +1,34 @@
+{
+  "version": "0.0.0",
+  "name": "local-hostname",
+  "repository": "lukeed/local-hostname",
+  "description": "WIP",
+  "unpkg": "dist/local.min.js",
+  "module": "dist/local.mjs",
+  "main": "dist/local.js",
+  "types": "local.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "bundt": "0.4.0",
+    "tap-spec": "5.0.0",
+    "tape": "4.11.0"
+  }
+}
