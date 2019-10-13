@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.1.0",
   "name": "local-hostname",
   "repository": "lukeed/local-hostname",
   "description": "A tiny (171B) utility to check if a hostname is local",
