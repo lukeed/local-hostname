@@ -1,5 +1,5 @@
 const test = require('tape');
-const check = require('../dist/local');
+const check = require('../dist/localhost');
 
 test.Test.prototype.local = function (val, bool) {
 	const out = check(val);
