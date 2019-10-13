@@ -42,7 +42,7 @@ test('127.0.0.0/8', t => {
 	t.local('127.255.255.255', true);
 	t.local('127.0.0.1', true);
 
-	t.local('127.300.300.300', false); // TODO
+	t.local('127.300.300.300', false);
 	t.local('128.0.0.1', false);
 	t.local('127...1', false);
 	t.local('127.1', false);
@@ -60,7 +60,7 @@ test('10.0.0.0/8', t => {
 
 	t.local('11.0.0.0', false);
 	t.local('100.0.0.0', false);
-	t.local('10.300.300.300', false); // TODO
+	t.local('10.300.300.300', false);
 	t.local('10.2550.0.1', false);
 	t.local('10.254.0', false);
 
@@ -74,7 +74,7 @@ test('192.168.0.0/16', t => {
 
 	t.local('192.167.0.0', false);
 	t.local('192 168 255 255', false);
-	t.local('192.168.0.300', false); // TODO
+	t.local('192.168.0.300', false);
 	t.local('193.168.0.1', false);
 
 	t.end();
@@ -88,7 +88,7 @@ test('172.16.0.0/12', t => {
 
 	t.local('172.32.0.0', false);
 	t.local('172.160.0.0', false);
-	t.local('172.16.0.256', false); // TODO
+	t.local('172.16.0.256', false);
 	t.local('173.168.0.1', false);
 	t.local('172.15.0.0', false);
 
@@ -104,7 +104,7 @@ test('169.254.0.0/16', t => {
 
 	t.local('169.254.0.0', false);
 	t.local('169.254.255.0', false);
-	t.local('169.254.254.256', false); // TODO
+	t.local('169.254.254.256', false);
 	t.local('168.254.1.0', false);
 
 	t.end();
