@@ -25,7 +25,13 @@
     "*.d.ts",
     "dist"
   ],
-  "keywords": [],
+  "keywords": [
+    "ipv4",
+    "hostname",
+    "localhost",
+    "network",
+    "ipv6"
+  ],
   "devDependencies": {
     "bundt": "0.4.0",
     "tap-spec": "5.0.0",
