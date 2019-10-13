@@ -1,1 +1,2 @@
-export default function (str: stirng) => boolean;
+declare function local(str: string): boolean;
+export default local;
