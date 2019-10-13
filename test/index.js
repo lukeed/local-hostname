@@ -1,5 +1,5 @@
-const test = require('tape');
-const check = require('../dist/localhost');
+import test from 'tape';
+import check from '../src/index';
 
 test.Test.prototype.local = function (val, bool) {
 	const out = check(val);
